@@ -1,4 +1,3 @@
-#this file is about function in python
 def alpha():
     print("hi")
 
@@ -6,3 +5,16 @@ def alpha():
 we just call it directly'''
 
 alpha()
+
+#we can add value from variable in function
+a = 2
+b = 3
+
+def add(x, y) :
+    x = x + y
+    print(str(x))
+
+add(a, b)
+
+
+
