@@ -1,7 +1,8 @@
+#this file is about function in python
 def alpha():
     print("hi")
 
-'''to call the function, we dont need print()
+'''to call the function, we don't need print()
 we just call it directly'''
 
 alpha()
@@ -16,5 +17,10 @@ def add(x, y) :
 
 add(a, b)
 
+#here other example of function
+def boo(x):
+    print(x)
+    print(x+7)
+boo(8)
 
 
