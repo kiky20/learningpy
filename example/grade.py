@@ -1,18 +1,18 @@
 #This is a simple example using if else statement
 
 #first you need to declare a variabble with input(), and change the data type into int()
-sat = int(input("Masukan nilai dari 1- 100 : "))
+sat = int(input("What is your test score between 1- 100? : "))
 sat <= 100
 #stating condition with if first: and else: last. if it is more than two condition use elif: between them
 if sat >= 90:
-    print("Nilai A")
+    print("Grade A")
 elif sat >= 80:
-    print("Nilai B ")
+    print("Grade B ")
 elif sat >= 75:
-    print("Nilai C ")
+    print("Grade C ")
 elif sat >= 70:
-    print("Nilai D ")
+    print("Grade D ")
 elif sat >= 60:
-    print("Nilai E ")
+    print("Grade E ")
 else:
     print("FAILURE!!")
