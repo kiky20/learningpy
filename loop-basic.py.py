@@ -1,7 +1,7 @@
 #this is a for loop statement
 for v in range(6):
   print(v)
-#the v is just a random variable,it will s
+#the v is just a random variable,it will print the int()
 
 #in below is a "while loops" example
 #start by declaring a variabel(or you can use exsited variabel)
@@ -18,3 +18,8 @@ fruits = ["apple", "banana", "cherry"]
 for x in adj:
   for y in fruits:
     print(x, y)
+
+#this is another loop example
+for x in range(5):
+  for y in range(2):
+    print(f"{x},{y}")
